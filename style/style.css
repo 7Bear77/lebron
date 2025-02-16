@@ -47,3 +47,106 @@
     font-size: 32px;
     padding-top: 16px;
 }
+
+.majorAccomps {
+    display: flex;
+    flex-direction: column;
+}
+
+.majorAccomps > h2 {
+    flex: 1;
+    text-align: center;
+}
+
+.theAccomps {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+}
+
+.regSeason, 
+.postSeason {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.regSeason > h3, 
+.postSeason > h3 {
+    text-align: center;
+}
+
+.regSeasonStats, 
+.postSeasonAwards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mvp, 
+.allstar, 
+.allNBA, 
+.allD, 
+.otherAwards,
+.championships,
+.fmvps, 
+.finals, 
+.confFinals {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    padding: 4px;
+    width: 90%;
+    height: 8vh;
+    align-items: center;
+}
+
+.mvpNum, 
+.allstarNum, 
+.allNBANum, 
+.allDNum, 
+.champNum, 
+.fmvpNum, 
+.finalsNum, 
+.confFinalsNum {
+    width: 25%;
+    max-width: 25%;
+    float: left;
+    border: 1px solid yellow;
+}
+
+.allNBA1, 
+.allNBA2, 
+.allNBA3, 
+.allD1, 
+.allD2 {
+    border: 1px solid tomato;
+    flex: 1;
+}
+
+.allFirst, 
+.allSecond, 
+.allThird, 
+.allDFirst, 
+.allDSecond {
+    text-align: center;
+}
+
+.allFirstYears,
+.allSecondYears,
+.allThirdYears,
+.allD1Years,
+.allD2Years {
+    text-align: center;
+}
+
+
+.roy, 
+.scoreChamp, 
+.assistChamp {
+    flex: 1;
+    border: 1px solid white;
+    text-align: center;
+}
