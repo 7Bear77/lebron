@@ -18,8 +18,9 @@
 .hero {
     border: 1px solid blue;
     height: auto;
-    width: 100vw;
+    width: 70vw;
     position: relative;
+    margin-left: 15vw;
 }
 
 #chip2016 {
@@ -150,3 +151,43 @@
     border: 1px solid white;
     text-align: center;
 }
+
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tableStatsRegRank, 
+#tableStatsPlayoffsRank, 
+#tableStatsCombinedRank {
+    width: 5%;
+    text-align: right;
+    padding: 4px;
+}
+
+
+#tableStatsRegAmount, 
+#tableStatsPlayoffsAmount, 
+#tableStatsCombinedAmount {
+    width: 15%;
+    text-align: right;
+    padding: 4px;
+}
+
+tbody {
+    text-align: right;
+}
+
+.tableDiv {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 40px;
+}
+
+th, td {
+    letter-spacing: 1px;
+    border: 1px solid white;
+}
+
